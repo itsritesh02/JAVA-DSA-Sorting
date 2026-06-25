@@ -52,6 +52,7 @@ System.out.print(i+" ");
     int n = arr.length;
 
     System.out.println("Array Before Sorting");
+    displayArray(arr);
     merge(arr, 0, n - 1);
     System.out.println();
 
